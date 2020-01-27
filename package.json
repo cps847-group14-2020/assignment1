@@ -1,0 +1,29 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "dev-start": "nodemon -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cps847-group14-2020/assignment1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cps847-group14-2020/assignment1/issues"
+  },
+  "homepage": "https://github.com/cps847-group14-2020/assignment1#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "slackbots": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
